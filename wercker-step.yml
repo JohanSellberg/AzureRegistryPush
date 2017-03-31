@@ -1,0 +1,21 @@
+name: Azure-container-registry-push
+version: 1.0.0
+description: Pushes docker container to Azure Container Registry.
+keywords:
+  - container
+  - registry
+  - azure
+properties:
+  username:
+    type: string
+    required: true
+  password:
+    type: string
+    required: true
+  registry_url:
+    type: string
+    required: true
+  repository:
+    type: string
+    required: true
+  
